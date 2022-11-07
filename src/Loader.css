@@ -1,0 +1,30 @@
+.loader {
+  width: 100vw;
+  height: 100vh;
+
+  display: grid;
+  place-content: center;
+}
+
+.spinner {
+  width: 20vmin;
+  height: 20vmin;
+  
+  border: 3.8px solid var(--clr-loader-border);
+  border-left-color: var(--clr-loader-spinner);
+  border-radius: 50%;
+
+  animation-name: spinner;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
