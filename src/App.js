@@ -14,7 +14,11 @@ const App = () => {
   }
 
   if (isReady) {
-    return <Question />;
+    return (
+      <main className="app">
+        <Question />
+      </main>
+    );
   }
 
   return (

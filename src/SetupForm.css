@@ -1,7 +1,7 @@
-.setup-form{
+.setup-form {
   max-width: 560px;
 
-  margin:0 auto;
+  margin: 0 auto;
   padding: 32px 28px;
   border-radius: 6px;
   box-shadow: var(--shadow);
@@ -9,16 +9,17 @@
 
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
 }
 
-.selection-input-title{
+.selection-input-title {
   margin: 8px 0;
   font-size: var(--fs-400);
   font-weight: var(--fw-700);
   color: var(--text-clr-primary-2);
 }
 
-.selection-value{
+.selection-value {
   margin-bottom: 28px;
   padding: 4px;
   background-color: var(--clr-main-bg);
@@ -28,13 +29,13 @@
   color: var(--text-clr-primary-1);
 }
 
-.error-msg{
+.error-msg {
   margin: 0 auto;
   color: var(--clr-error);
   visibility: hidden;
 }
 
-.start-btn{
+.start-btn {
   margin-top: 16px;
   background-color: var(--btn-clr-primary);
 
